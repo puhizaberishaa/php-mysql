@@ -26,4 +26,17 @@ $result = maximum(10, 15);
 echo "The max is:".$result;
 
 //Function to check if a random number assigned is fully divisible by the number 2
+
+function fully_divisible($n){
+   if (($n % 2)== 0){
+      return "$n is fully ivisible by 2";
+   }else{
+      return "$n is not fully divisible by 2";
+   }
+}
+
+print_r(fully_divisible(4). "<br>");
+print_r(fully_divisible(35). "<br>");
+print_r(fully_divisible(14). "<br>");
+print_r(fully_divisible(15). "<br>");
 ?>
