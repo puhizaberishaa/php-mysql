@@ -7,4 +7,6 @@ VALUES ('john', 'mypassword');
 $pdo-> exec($sql);
 
 echo "New record created successfully";
+
+
 ?>
